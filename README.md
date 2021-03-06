@@ -6,6 +6,8 @@ A complete redesign of the product detail page for a client-facing retail websit
  - Questions & Answers
  - Ratings & Reviews
 
+![Preview gif](https://github.com/codytjue/projectCatwalk/blob/master/fec1.gif?raw=true)
+
 ## Demo
 
 A live working demo can be seen here.
