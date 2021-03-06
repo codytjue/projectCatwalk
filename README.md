@@ -1,31 +1,83 @@
-# Guidelines
-  **Installation**
-  1. npm install
-  2. npm run build-prod
-  3. npm run build-dev
-  4. npm start
+#  Project-Catwalk
 
-## Check out
-  **Upgrading from Enzyme 2.x or React < 16**
-    - To get started with enzyme, you can simply install it via npm. You will need to install enzyme along with an Adapter corresponding to the version of react
+A complete redesign of the product detail page for a client-facing retail website composed of four distinct modules:
+ - Product Detail
+ - Related Items & Outfit Creation
+ - Questions & Answers
+ - Ratings & Reviews
 
-**We are going to use "react": "^17.0.1"**
+## Demo
 
-    import Enzyme from 'enzyme';
-    import Adapter from 'enzyme-adapter-react-16';
-
-    Enzyme.configure({ adapter: new Adapter() });
+A live working demo can be seen here.
 
 
-    *** more info: https://www.npmjs.com/package/enzyme
 
-  **babel compiler**
-  Instruction says you should install it globally.
-  if installing in local folder doesn't work, try to install
-  "npm install --global create-babelrc"
+##  Getting  Started
 
-## **Useful resource**
-- **esLint** :https://eslint.org/docs/user-guide/command-line-interface
--
+(1) Fork the repo and clone it down to your computer.
 
-_Have a great day guys!_
+(2) Open it in VS Code (or whatever IDE you use) like you normally would.
+
+(3) To be able to make HTTP requests to the API in this repo, you must create and use a GitHub API Token. Here is how to obtain your Token:
+
+-  Go  to:  https://github.com/settings/tokens
+
+-  Click  "Generate  New  Token"
+
+-  Given  the  Token  a  Description  (e.g.  "My  token")
+
+-  Under  Select  Scopes,  select  the  following:
+
+   -  read:org
+
+   -  user
+
+   -  read:user
+
+   -  user:email
+
+   -  user:follow
+
+-  Generate  Token
+
+  -  Note  that  this  token  is  only  viewable  once,  at  generation  time.  Make  sure  to  copy  it  to  a  secure  place.
+
+
+(4) In the "server" directory of the repository, make a copy of the "config_example.js" file and rename it to "config.js."
+
+
+(5) In config.js, replace "\<Auth Token\>" with your GitHub API Token (from step 3, above) as a string and make sure all changes up to this point are saved.
+
+
+
+(6) In your terminal, from the root directory of the repository, run
+
+
+
+```
+npm install
+```
+
+(7) then run this to start your server
+
+```
+npm run start
+```
+​
+(8) Now, type
+
+```
+localhost:3000
+```
+
+into your browser and hit ENTER. The application should open up.
+
+
+(9) At this point, feel free to click around the application and explore the interactivity of the various components.
+
+## Team
+
+ - Product Detail : [Aharon Kolatch](https://github.com/akolatch)
+ - Related Items & Outfit Creation : [Sujin Kim](https://github.com/clairesujin8702)
+ - Questions & Answers : [Cody Jue](https://github.com/codytjue)
+ - Ratings & Reviews: [William Chang](https://github.com/Orenjiku)
