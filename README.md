@@ -5,8 +5,10 @@ A complete redesign of the product detail page for a client-facing retail websit
  - Related Items & Outfit Creation
  - Questions & Answers
  - Ratings & Reviews
-
+ - 
+<center>
 ![Preview gif](https://github.com/codytjue/projectCatwalk/blob/master/fec1.gif?raw=true)
+ </center>
 
 ## Demo
 
