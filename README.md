@@ -10,10 +10,6 @@ A complete redesign of the product detail page for a client-facing retail websit
   <img src="https://github.com/codytjue/projectCatwalk/blob/master/fec1.gif?raw=true" />
 </p>
 
-## Demo
-
-A live working demo can be seen here.
-
 
 
 ##  Getting  Started
